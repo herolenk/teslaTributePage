@@ -37,7 +37,7 @@ header img{
     margin-top: 30px;
 }
 #Hleft{
-    height: 369px;
+    height: 372px;
     position: absolute;
     top:120px;
     left:0px;
@@ -72,6 +72,9 @@ position: relative;
     transform: rotate(3deg);
     top: 15px;
     color:azure;
+}
+.head-btn-active{
+    opacity: 1;
 }
 .btn-main{
     left: 600px;
@@ -127,7 +130,7 @@ position: relative;
 */
 #main{
     height: auto;
-    background-color: bisque;
+    background-image: url('https://image.ibb.co/cpfMzv/mainback.jpg');
 }
 #main1{
     height: 950px;
@@ -140,7 +143,7 @@ position: relative;
     text-transform: uppercase;
     left: 350px;
     top: 50px;
-    
+    color: azure;
 }
 .textBoxType1{
     background-image: url('https://image.ibb.co/n2CZKv/bg.jpg');
@@ -271,6 +274,87 @@ position: relative;
 }
 /*
   ========================================
-  Lightning
+  Bio Section
   ========================================
 */
+#bioSection{
+    height: 950px;
+    background-image: url('https://image.ibb.co/c821Ga/biomainback.jpg');
+}
+.biography{
+    position: relative;
+    margin-top: 30px;
+}
+#bio-left{
+    height: 900px;
+    border-right: 10px solid green;
+}
+#bio-middle{
+    height: 900px;
+}
+#bio-middle h1{
+    position: absolute;
+    color:aliceblue;
+    left: 210px;
+    top: -30px;
+    font-size: 50px;
+    font-family: monospace;
+}
+#bio-right{
+    height: 900px;
+    border-left: 10px solid green;
+}
+#bio-img{
+    display:block;
+    margin: 0 auto;
+    margin-top: 73px;
+}
+.bio-main h2{
+    font-size: 42px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: aliceblue;
+}
+#bio-right-bottom-header{
+    background-color: #00779A;
+    padding: 15px;
+    border-radius: 25px;
+}
+.bio-box{
+    height: auto;
+    width: 550px;
+    background-image:url('https://image.ibb.co/hzN7pv/bioboxback.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin: 50px auto;
+    
+}
+.bio-main p{
+    font-size: 14px;
+    font-family: monospace;
+    padding: 40px;
+    text-align: center;
+    color: #5750b7;
+}
+
+.bio-p-left-top{
+    
+    
+    
+}
+.bio-p-left-bottom{
+    
+    
+    
+}
+.bio-p-right-top{
+    
+    
+    
+}
+.bio-p-right-bottom{
+    
+    
+    
+}
