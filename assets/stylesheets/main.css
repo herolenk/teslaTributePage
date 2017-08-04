@@ -1,0 +1,242 @@
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+*{
+    box-sizing:border-box;
+    
+}
+html,body{
+    padding:0;
+    margin:0;
+
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+header{
+    height: 700px;
+    width: auto;
+    background-image: url('https://image.ibb.co/gRr0sF/wrapper.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:relative;
+    
+}
+header img{
+    max-width: 100%;
+    height: auto;
+    display:block;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+#Hleft{
+    height: 369px;
+    position: absolute;
+    top:120px;
+    left:0px;
+}
+#Hright{
+    height: 300px;
+    position: absolute;
+    top:160px;
+    right:0px;
+}
+/*
+  ========================================
+  Header Buttons
+  ========================================
+*/
+#head-btns{
+position: relative;  
+}
+.head-btn{
+    color:white;
+    background: linear-gradient(to right, #130806, #100501);
+    display:inline-block;
+    padding:30px;
+    position: absolute;
+    margin-left: 10px;
+    opacity: 0.75;
+    font-family: Lobster;
+    font-size: 22px;
+    cursor:pointer;
+}
+.head-btn:hover{
+    transform: rotate(3deg);
+    top: 15px;
+    color:azure;
+}
+.btn-main{
+    left: 600px;
+}
+.btn-inv{
+    left: 730px;
+}
+.btn-bio{ 
+    left: 900px;
+}
+.btn-abo{
+    left: 1073px;
+}
+/*
+  ========================================
+  supporter1
+  ========================================
+*/
+.supporter1{
+    background: #00C9FF; 
+    background: -webkit-linear-gradient(to right, #B86C2C, #AB7640);
+    background: linear-gradient(to right, #B86C2C, #AB7640);  
+    height: 250px;
+    position: relative;
+}
+#badge{
+    margin: 0 auto;
+    display:block;
+    position:relative;
+    top:-94px;
+}
+#line1{
+    position:absolute;
+    background-color: #AE743C;
+    top:-10px;
+    left:0;
+    height: 10px;
+    width: 100%;
+    
+}
+#line2{
+    position:absolute;
+    
+    background-color: #300F07;
+    height: 10px;
+    width: 100%;
+    left:0;
+}
+/*
+  ========================================
+  Main
+  ========================================
+*/
+#main{
+    height: auto;
+    background-color: bisque;
+}
+#main1{
+    height: 950px;
+    position: relative;
+}
+.main1-head{
+    position: absolute;
+    font-family: monospace;
+    font-size: 70px;
+    text-transform: uppercase;
+    left: 350px;
+    top: 50px;
+    
+}
+.textBoxType1{
+    background-image: url('https://image.ibb.co/n2CZKv/bg.jpg');
+    background-size:cover;
+    background-position:center center;
+    height: 500px;
+    width: 50%;
+    border-radius: 25px;
+    position: absolute;
+    
+}
+.textBoxType2{
+    height: 400px;
+    width: 40%;
+    background-image: url('https://image.ibb.co/n2CZKv/bg.jpg');
+    background-size:cover;
+    background-position:center center;
+    position: absolute;
+    border-radius: 25px;
+    color:white;
+    padding: 50px;
+}
+.box1{/*type1*/
+    top: 25%;
+    padding: 50px;
+}
+.box2{/*type2*/
+    top: 50px;
+    right: 50px;
+    transform: rotate(20deg);
+    z-index: 2;
+}
+.box3{/*type2*/
+    bottom:50px;
+    right: 50px;
+    transform: rotate(-20deg);
+}
+/*
+  ========================================
+  Main Inventions - 1 - 1.Box-
+  ========================================
+*/
+#bolt{
+    height: 200px;
+    position: absolute;
+    left:680px;
+    top: 240px;
+    
+}
+.box1 h3{
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+.box1 p{
+    color: #efcd7f;
+    font-family: monospace;
+    width: 70%;
+    font-size: 20px;
+    padding: 60px;
+    margin-left: 20px;
+}
+/*
+  ========================================
+  Main Inventions - 1 - 2.Box-
+  ========================================
+*/
+#wireless{
+    position:absolute;
+    top:0px;
+    left:0;
+    height: 200px;
+    transform: rotate(140deg);
+}
+.box2 h3{
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    width: 65%;
+}
+.box2 p{
+    color: #efcd7f;
+    font-family: monospace;
+    width: 80%;
+    font-size: 20px;
+    padding: 60px;
+    margin-left: 90px;
+}
+/*
+  ========================================
+  Lightning
+  ========================================
+*/
