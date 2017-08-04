@@ -338,23 +338,45 @@ position: relative;
     color: #5750b7;
 }
 
-.bio-p-left-top{
-    
-    
-    
+/*
+  ========================================
+  Images Section
+  ========================================
+*/
+#imagesSection{
+    height: 950px;
+    background-color: aquamarine;
 }
-.bio-p-left-bottom{
-    
-    
-    
+.images-main{
+    margin-top: 75px;
 }
-.bio-p-right-top{
-    
-    
-    
+.img-left-sec{
+    background-color: aqua;
+    height: 800px;
+    border: 1px solid green;
+    padding: 50px;
 }
-.bio-p-right-bottom{
-    
-    
-    
+.img-right-sec{
+    height: 800px;
+    background-color: maroon;
+    border: 1px solid green;
+    padding: 100px;
+}
+
+.img-box{
+    float:left;
+    border: 2px solid green;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.img-s-big{
+    border: 5px solid black;
+    height: 550px;
+}
+.imgboxgly{
+    border: 2px solid green;
 }
