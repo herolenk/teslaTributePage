@@ -563,6 +563,9 @@ position: relative;
     #desktop{
         display:none;
     }
+    #mobile{
+        display:none;
+    }
     #tablet{
         display:block;
         background-color: antiquewhite;
@@ -576,8 +579,8 @@ position: relative;
         
     }
     .t-header img{
-        display:block;
-        height:auto;
+        display: block;
+        height: auto;
         width: 100%;
     }
     .t-header h1{
