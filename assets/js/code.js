@@ -43,4 +43,8 @@ var imgBox = $('.img-box');
         $('.btn-abo').addClass('head-btn-active');
     });   
 }
+
 $(document).ready(main);
+
+
+
