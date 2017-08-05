@@ -287,7 +287,8 @@ position: relative;
 }
 #bio-left{
     height: 900px;
-    border-right: 10px solid green;
+    border-right: 10px solid hsla(360, 10%,50%,0.7);
+    
 }
 #bio-middle{
     height: 900px;
@@ -302,7 +303,7 @@ position: relative;
 }
 #bio-right{
     height: 900px;
-    border-left: 10px solid green;
+    border-left: 10px solid hsla(360, 10%,50%,0.7);
 }
 #bio-img{
     display:block;
@@ -344,39 +345,75 @@ position: relative;
   ========================================
 */
 #imagesSection{
-    height: 950px;
-    background-color: aquamarine;
+    height: auto;
+    background-image: url('https://image.ibb.co/hOv61a/518164_backgrounds.jpg');
+    background-position: center;
+    background-size:cover;
 }
 .images-main{
     margin-top: 75px;
 }
 .img-left-sec{
-    background-color: aqua;
     height: 800px;
-    border: 1px solid green;
     padding: 50px;
+    
 }
 .img-right-sec{
     height: 800px;
-    background-color: maroon;
-    border: 1px solid green;
     padding: 100px;
 }
-
+.img-right-sec h1{
+    font-family:Lobster;
+    font-size: 60px;
+    position: absolute;
+    top:0;
+    left: 0px;
+    color:cornflowerblue;
+}
 .img-box{
     float:left;
     border: 2px solid green;
-    background-color: black;
     height: 200px;
     width: 200px;
     display: inline-block;
     margin-right: 30px;
     margin-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:local;
 }
 .img-s-big{
     border: 5px solid black;
     height: 550px;
+    background-image: url('https://image.ibb.co/foFTEv/Rare_photos_of_Nikola_Tesla_14.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:local;
 }
-.imgboxgly{
-    border: 2px solid green;
+.img-b-1{background-image: url('https://image.ibb.co/im3tUv/teslaelectric.jpg');}
+.img-b-2{background-image: url('https://image.ibb.co/mc9G1a/117f69248b6fde2cfea8a911dcab6290_tesla_coil_nikola_tesla.jpg');}
+.img-b-3{background-image: url('https://image.ibb.co/mT5pMa/nikola_tesla6_m.jpg');}
+.img-b-4{background-image: url('https://image.ibb.co/k74iga/nikola_tesla_marconi_e1482503648197.jpg');}
+.img-b-5{background-image: url('https://image.ibb.co/cJ0BZv/Rare_photos_of_Nikola_Tesla_14.jpg');}
+.img-b-9{background-image: url('https://image.ibb.co/nKA61a/tesla_hakk_nda_bilmedikleriniz_siralio_4_new.jpg');}
+.img-b-6{background-image: url('https://image.ibb.co/n7VZnF/Rare_photos_of_Nikola_Tesla_23.jpg');}
+.img-b-7{background-image: url('https://image.ibb.co/bBVvuv/nicala_tesla.jpg');}
+.img-b-8{background-image: url('https://image.ibb.co/eMhm1a/tesla.jpg');}
+#imgboxgly{
+    margin:50px 350px;
+}
+#imgboxgly .btn{
+    padding: 10px 15px;
+    
+}
+/*
+  ========================================
+  Media Queries
+  ========================================
+*/
+
+@media only screen and (){
+    
 }
