@@ -432,7 +432,7 @@ position: relative;
   ========================================
 */
 
-@media only screen and (max-width:480px){
+@media screen and (max-width:480px){
  
 /*
   ===============
@@ -553,7 +553,7 @@ position: relative;
         border: 4px solid #EFCD7F;
     }
 }
-@media only screen and (max-width:768px){
+@media screen and (max-width: 768px) and (min-width: 481px) {
     
  /*
   ===============
