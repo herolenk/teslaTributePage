@@ -596,6 +596,8 @@ position: relative;
         background: linear-gradient(to right, #B86C2C, #AB7640);
     }
     .t-badge img{
+        display: blcok;
+        height: auto;
         width: 80%;
         margin: 20px auto;
     }
