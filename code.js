@@ -1,6 +1,6 @@
 var main = function(){
 
-var imgBox = $('.img-box');
+
     
     /* Images Section*/
     $('.img-box').on('click', function(){
