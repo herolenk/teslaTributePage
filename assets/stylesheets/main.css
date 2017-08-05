@@ -61,12 +61,13 @@ position: relative;
     background: linear-gradient(to right, #130806, #100501);
     display:inline-block;
     padding:30px;
-    position: absolute;
+    position: fixed;
     margin-left: 10px;
     opacity: 0.75;
     font-family: Lobster;
     font-size: 22px;
     cursor:pointer;
+    z-index: 20;
 }
 .head-btn:hover{
     transform: rotate(3deg);
@@ -345,7 +346,7 @@ position: relative;
   ========================================
 */
 #imagesSection{
-    height: auto;
+    height: 950px;
     background-image: url('https://image.ibb.co/hOv61a/518164_backgrounds.jpg');
     background-position: center;
     background-size:cover;
@@ -382,6 +383,9 @@ position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment:local;
+}
+.imagesBoxSelected{
+    border: 4px solid black;
 }
 .img-s-big{
     border: 5px solid black;
